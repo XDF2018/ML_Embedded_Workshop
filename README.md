@@ -1,4 +1,4 @@
-# XDF 2018 Workshop 
+F# XDF 2018 Workshop 
 # Machine Learning for Embedded
 
 ## Introduction
@@ -11,7 +11,7 @@ The architecture DNNDK and its development flow are pictured below:
 ![DNNDK Elements](./images/DNNDK_elements.png)
 
 **DNNDK Flow:**
-![DNNDK Flow](./images/DNNDK_flow.png)
+![DNNDK Flow](./images/DNNDK_Flow.png)
 
 **DNNDK Compilation Process:**
 ![DNNDK Process](./images/DNNDK_process.png)
