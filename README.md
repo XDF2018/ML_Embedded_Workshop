@@ -70,7 +70,7 @@ If you don’t have it, please raise your hand and ask for help.
 4. The startup time is about 10 ~20 seconds and you need to refresh the browser to see the status update. You will see the instance state becomes running and there is an IPv4 public IP address associated with it. Later, you will use this IP address for SSH or Remote Desktop Connection to access the working directory. 
    
 **AWS Instance Runing:**
-![AWS Login](./images/AWS_Instance_running.png)
+![AWS Login](./images/AWS_Instance_Running.png)
 
 
 There are two ways to connect to the instance - SSH and RDP. Directions for both follow.
@@ -346,7 +346,7 @@ The working directory is ~/dnndk/dp-8020/ssd/
 It is quite straightforward to go through the lab by repeating the steps in Resnet50.
 1. Run **./decent_ssd.sh** in ~/dnndk/dp-8020/ssd to generate depoly.prototxt and deploy.caffemodel in ~/dnndk/dp-8020/ssd/decent_output
 2. Run **./dnnc_ssd.sh** to generate DPU kernel ELF file dpu_ssd.elf in ~/dnndk/dp-8020/ssd/dnnc_output.
-3. Copy this elf file into ~/dnndk/dp-8020/samples/video_analysis/model and run make, the final executable file video_analysis will be generated.
+3. Copy this ELF file into ~/dnndk/dp-8020/samples/video_analysis/model and run make, the final executable file video_analysis will be generated.
 4. Then you need to copy the executable file video_analysis to /root/samples/video_analysis of the DP-8020 board and run
 
     ./video_analysis video/structure.mp4
@@ -356,7 +356,7 @@ The input image size is 480x360 and we can achieve 28 fps.
 
 ![Structure_MP4](./images/structure_mp4.png)
 
-We are successfully running a modern object detection network to detect the vehicles, motorcycles and pedestrians in the city traffic @ ??? fps on an embedded platform. This is done within a few minutes with the help of DNNDK. 
+We are successfully running a modern object detection network to detect the vehicles, motorcycles and pedestrians in the city traffic in real time on an embedded platform. This is done within a few minutes with the help of DNNDK.
 
 After completing this section, you will:
 
