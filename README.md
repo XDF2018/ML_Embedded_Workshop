@@ -25,7 +25,6 @@ The architecture DNNDK and its development flow are pictured below:
 
 This developer workshop is divided into 6 modules. You should complete each module before proceeding to the next.
 1. **Connecting to your P2 instance**: You will start an EC2 P2 instance where DNNDK tool and project files are located and connect to it using SSH or remote desktop client. 
-
 2. **Experiencing DNNDK with Resnet50**: Let us start with a classical image classification example. In this module you experienced the quantization, compilation and deployment of pretrained Resnet50 with DNNDK for Xilinx embedded platform
 
 3. **Go further with SSD**: The object detection is a common task for embedded machine learning. You will build a real-time multi-class object detection demo using SSD network in minutes. 
@@ -66,12 +65,12 @@ If you don’t have it, please raise your hand and ask for help.
 2. You will see a list of instances. Select the instance associated with your user name, click __*Actions > Instance State > Start*__. Then click "Yes, start" button in the Start Instances dialog. 
    
 **AWS Instances:**
-![AWS Login](./images/AWS_instances.png)
+![AWS Login](./images/AWS_Instances.png)
 
 4. The startup time is about 10 ~20 seconds and you need to refresh the browser to see the status update. You will see the instance state becomes running and there is an IPv4 public IP address associated with it. Later, you will use this IP address for SSH or Remote Desktop Connection to access the working directory. 
    
 **AWS Instance Runing:**
-![AWS Login](./images/AWS_instance_running.png)
+![AWS Login](./images/AWS_Instance_running.png)
 
 
 There are two ways to connect to the instance - SSH and RDP. Directions for both follow.
