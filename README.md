@@ -76,9 +76,14 @@ If you don’t have it, please raise your hand and ask for help.
 There are two ways to connect to the instance - SSH and RDP. Directions for both follow.
 
 ### Connect to your instance using SSH
-1. In the SSH client, use the IPv4 Public IP of your instance:
+1. In the SSH client such as PuTTy, use the IPv4 Public IP of your instance:
 
     ssh ubuntu@\<your IPv4 Public IP\>
+    
+For the first time, it may ask you for the username and password, please use:
+
+    username: ubuntu
+    password: xdf_deephi
 
 **SSH Client:**
 ![AWS Login](./images/ssh_login.png)
