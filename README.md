@@ -53,10 +53,15 @@ You should have received a piece of paper which has the Account ID, IAM user nam
 If you don’t have it, please raise your hand and ask for help.
 
 1. User your web browser to visit the following URL:
+
+   For APAC / Japan, 
+   https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#Instances:tag:Name=\<your IAM user name\>;sort=tag:Name
+   
+   For US / Canada,
    https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#Instances:tag:Name=\<your IAM user name\>;sort=tag:Name
 
-   For example, if your user name is "user7", the correct URL would be:
-    https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#Instances:tag:Name=user7;sort=tag:Name
+   For example, assume you are in China, if your user name is "user7", the correct URL would be:
+    https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#Instances:tag:Name=user7;sort=tag:Name
 
 1. Login in with the assigned Account ID, user name and Password as shown.
 
